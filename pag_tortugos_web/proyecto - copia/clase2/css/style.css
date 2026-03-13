@@ -1,0 +1,195 @@
+/* BASE */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(244,195,255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TODAS LAS IMAGENES */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: rgb(247,64,177);
+    margin:10px;
+    display:flex;
+    padding:20px;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.navbar img{
+    width:70px;
+}
+
+.navbar button{
+
+    background:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    cursor:pointer;
+
+}
+
+
+/* BANNER */
+
+.banner{
+
+    height:30vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    gap:20px;
+
+    color: rgb(255,0,115);
+    text-align:center;
+
+}
+
+
+
+/* PRODUCTOS */
+
+.productos{
+
+    background-color: rgb(240,134,207);
+
+    padding:10vh 5vw;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:20px;
+
+    color:white;
+
+}
+
+
+/* CARDS */
+
+.productos .card{
+
+    background-color: rgb(250,20,166);
+
+    display:flex;
+
+    padding:20px;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    max-width:250px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+}
+
+.productos img{
+
+    width:120px;
+
+}
+
+
+
+/* FRUTIAMIGUIS */
+
+.frutiamiguis{
+
+    background-color: rgb(150,148,245);
+
+    display:flex;
+
+    padding:60px;
+
+    margin:70px;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    color:white
+
+}
+
+.frutiamiguis img{
+
+    width:150px;
+
+}
+
+
+
+/* TEXTO FINAL */
+
+.texto{
+
+    background-color: rgb(250,20,166);
+
+    padding:10vh 5vw;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:20px;
+
+    color:white
+
+}
+
+.texto img{
+
+    width:180px;
+
+}
+
+
+/* FOOTER */
+
+.footer-container{
+
+    background-color: rgb(247,64,177);
+
+    padding:20px;
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:40px;
+
+}
